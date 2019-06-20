@@ -111,7 +111,7 @@ function increaseGravity(){
 }
 
 function decreaseGravity(){
-    if(stepsInterval === 0) return;
+    if(gravity === 0) return;
     gravity-=1;
     updateGravityValue();
 }
