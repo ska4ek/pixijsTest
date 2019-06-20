@@ -155,7 +155,6 @@ function culcPixels(){
 /** RENDERING **/
 app.ticker.add(() => {
     for(let item of app.stage.children){
-        item.y = item.y+1;
         if(item.y - item.height * .5 > app.screen.height){
             removeItem(item);
         }else{
