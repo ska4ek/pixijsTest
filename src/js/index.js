@@ -61,8 +61,6 @@ class Item extends PIXI.Graphics {
 
 
 
-
-
 const app = new PIXI.Application({view: mainScreen});//{ antialias: true }
 document.body.appendChild(app.view);
 
